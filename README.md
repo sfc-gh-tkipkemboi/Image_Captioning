@@ -98,7 +98,7 @@ DenseNet201, on the other hand, has more layers and a more complex architecture 
 In general, if you have a large dataset and computational resources, DenseNet201 may be a better choice, as it can capture more complex features and can potentially achieve better performance. If you have limited data and computational resources, VGG16 may be a better choice, as it is simpler and faster to train.
 
 ### Pre-Trained DenseNet201 Model
-We set the input layer to be the same as the input layer of the original DenseNet201 model, and the output layer to be the second-to-last layer of the original model. This removes the final classification layer, which was responsible for predicting the class labels of the input images.
+We set the input layer to be the same as the input layer of the original DenseNet201 model, and the output layer to be the second-to-last layer of the original model. This removes the final classification layer, which was responsible for predicting the class labels of the input images. The below image shows us the architecture of Densenet201 which is dowloaded from https://www.researchgate.net/figure/DenseNet201-architecture-with-extra-layers-added-at-the-end-for-fine-tuning-on-UCF-101_fig2_353225711 .
 
 
 ![DenseNet201_architecture](images/DenseNet201_architecture.png)
@@ -106,7 +106,7 @@ We set the input layer to be the same as the input layer of the original DenseNe
 
 
 ### Pre-Trained VGG16 Model
-Like DenseNet 201, we set the input layer to be the same as the input layer of the original DenseNet201 model, and the output layer to be the second-to-last layer of the original model. This removes the final classification layer, which was responsible for predicting the class labels of the input images.
+Like DenseNet 201, we set the input layer to be the same as the input layer of the original DenseNet201 model, and the output layer to be the second-to-last layer of the original model. This removes the final classification layer, which was responsible for predicting the class labels of the input images. The below image shows us the architecture of VGG16 which is dowloaded from https://www.hindawi.com/journals/am/2023/6147422/ .
 
 ![VGG16_network_architecture](images/VGG16_network_architecture.png)
 
