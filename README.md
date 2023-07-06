@@ -1,8 +1,11 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Capstone Project - Developing Image Captioning Model With Deep Learning
+# Developing Image Captioning Model With Deep Learning
 
 ### Problem Statement
 
 Developing an image captioning model with the ability to generate accurate and relevant captions for images, specifically aimed at assisting visually impaired individuals. The model will utilize deep learning techniques such as convolutional neural networks and long short-term memory networks, as well as pre-trained models for feature extraction and GloVe embeddings for text representation. The objective is to improve accessibility for visually impaired individuals by providing them with a more comprehensive understanding of the content of images through generated captions.
+
+
+---
 
 ### Background
 
