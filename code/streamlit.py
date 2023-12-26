@@ -3,6 +3,7 @@ import streamlit as st
 from tensorflow import keras
 import pandas as pd
 import numpy as np
+from pathlib import Path
 
 import time
 from tensorflow import keras
@@ -14,8 +15,13 @@ from tensorflow.keras.applications.vgg16 import VGG16 , preprocess_input
 from gtts import gTTS
 from IPython.display import Audio
 
-caption_model_vgg = keras.models.load_model('../models/caption_mode_with_vgg16.h5')
-df = pd.read_csv('../data/cleaned_caption.csv')
+#caption_model_vgg = keras.models.load_model('../models/caption_mode_with_vgg16.h5')
+model_path = Path('../models/caption_mode_with_vgg16.h5')
+caption_model_vgg = keras.models.load_model(model_path)
+
+#df = pd.read_csv('../data/cleaned_caption.csv')
+csv_file_path = Path('../data/cleaned_caption.csv')
+df = pd.read_csv(csv_file_path)
 
 # Title, head and 
 st.title(":blue[Every Photo Has A Story To Tell]")
