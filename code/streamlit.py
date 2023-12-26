@@ -16,7 +16,7 @@ from gtts import gTTS
 from IPython.display import Audio
 
 #caption_model_vgg = keras.models.load_model('../models/caption_mode_with_vgg16.h5')
-model_path = Path('../models/caption_mode_with_vgg16.h5')
+model_path = Path('caption_mode_with_vgg16.h5')
 caption_model_vgg = keras.models.load_model(model_path)
 
 #df = pd.read_csv('../data/cleaned_caption.csv')
